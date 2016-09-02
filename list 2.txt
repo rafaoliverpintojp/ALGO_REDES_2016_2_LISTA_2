@@ -1,0 +1,90 @@
+# 2ª Lista de exercicios
+# Aluno Rafael de Oliveira Pinto
+#
+#
+# Questão 1
+
+#A quantidade de pessoas que responderam ótimo;
+#b) A quantidade de pessoas que responderam bom;
+#c) A quantidade de pessoas que responderam regular.
+
+contador_regular = 0
+contador_bom = 0
+contador_otimo = 0
+for i in range (3)
+opiniao = int(input('Digite sua opinião sobre o filme:'))
+    if opiniao == 1:
+       contador_regular = contador_regular + 1
+       print('Regular')
+    elif opiniao == 2:
+       contador_bom = contador_bom + 1
+       print('bom')
+    else: opiniao == 3:
+       contador_otimo = contador_otimo + 1
+       print('Otimo')
+print('Qtd de opiniao em REGULAR =%d' % contador_regular)
+print('Qtd de opiniao em BOM =%d' % contador_bom)
+print('Qtd de opiniao em ÓTIMO =%d' % contador_otimo)
+
+############################
+# Questão 2 Portugol #######
+############################
+
+Algoritmo
+Inicio
+
+contador_regular = 0
+contador_bom = 0
+contador_otimo = 0
+para i no intervalo de (3)
+variavel opiniao = inteiro(entrada)
+Escreva(' Digite sua opinião sobre o filme: '))
+se opiniao igual a 1
+   contador_regular recebe contador_regular + 1
+   escreva(Escreva Regular)
+Escreva(' Digite sua opinião sobre o filme: '))
+se opiniao igual a 2
+   contador_bom recebe contador_bom + 1
+   escreva(Escreva Bom)
+Escreva(' Digite sua opinião sobre o filme: '))
+se opiniao igual a 3
+   contador_otimo recebe contador_otimo + 1
+   escreva(Escreva Ótimo)
+   
+
+#################################
+#Questão 3 Lista 2###############
+#################################
+
+#Média Aritmética Mensagem
+#0,0 até 4,0 (não incluso) Reprovado
+#4,0 até 7,0 (não incluso) Prova Final
+#7,0 até 10,0 Aprovado
+
+n1 = int(input('Digite sua 1ª nota: '))
+n2 = int(input('Digite sua 2° nota: '))
+n3 = int(input('Digite sua 3ª nota: '))
+nota = (n1 + n2 + n3) / 3
+if nota >= 7 and nota < 10:
+    print ('Aprovado!!')
+elif nota >= 4 and nota < 7:
+    print ('Prova Final!')
+else:
+    print ('Reprovado!')
+
+#################################
+#Questão 4 Lista 2###############
+###Portugol######################
+#################################
+
+Algoritmo
+inicio
+nota 1 recebe inteiro
+Escreva (Digite a primeira nota:)
+nota 2 recebe inteiro
+Escreva (Digite a segunda nota:)
+nota 3 recebe inteiro
+Escreva (Digite a terceira nota:)
+
+
+#################################
